@@ -2,26 +2,26 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: Research focus and publications
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+YeAbay Wuha Intel combines hydrogeology, remote sensing, and machine learning to study groundwater in the Upper Blue Nile (Abay) Basin highland aquifer system.
 
 {% include section.html %}
 
-## Highlighted
+## Research focus
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+- Groundwater storage change from satellite gravimetry (GRACE and GRACE-FO).
+- Aquifer hydraulic properties from re-interpreted pumping tests.
+- Explainable machine learning for borehole siting and yield prediction.
+- Scenario modelling of groundwater abstraction, land use, and climate.
+- Water quality and protection zone risk around production wells.
 
 {% include section.html %}
 
-## All
+## Publications
 
-{% include search-box.html %}
-
-{% include search-info.html %}
-
-{% include list.html data="citations" component="citation" style="rich" %}
+Peer-reviewed articles from the project will be listed here once they are published.
+The project plans to publish in Q1 hydrology and hydrogeology journals.

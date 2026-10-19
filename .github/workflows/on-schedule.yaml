@@ -17,7 +17,7 @@ permissions:
 jobs:
   update-citations:
     # only run on user instance of template, not template itself
-    if: github.repository != 'greenelab/lab-website-template'
+    if: github.repository == 'abay-intel/abay-intel'
     uses: ./.github/workflows/update-citations.yaml
     secrets: inherit
     with:

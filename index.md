@@ -1,35 +1,19 @@
 ---
 ---
 
-# Lab Website Template
+# YeAbay Wuha Intel
 
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
-
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
-
-{% include section.html %}
-
-## Highlights
+YeAbay Wuha Intel is a 24-month applied research initiative led by the Blue Nile Water Institute (BNWI) at Bahir Dar University.
+It develops an AI-enabled, GPS-based groundwater intelligence platform for the Abay Basin and the broader Amhara Region, Ethiopia.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We combine satellite observations, aquifer testing, and machine learning to map groundwater potential and estimate sustainable yield.
 
 {%
   include button.html
   link="research"
-  text="See our publications"
+  text="See our research"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -39,7 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/strata.jpg"
   link="research"
   title="Our Research"
   text=text
@@ -47,7 +31,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+The project builds a spatial groundwater database, an AI model, a groundwater flow model, and a web application, followed by field validation.
 
 {%
   include button.html
@@ -62,7 +46,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/sites.jpg"
   link="projects"
   title="Our Projects"
   flip=true
@@ -72,7 +56,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+A core technical team from Bahir Dar University and the Blue Nile Water Institute, with co-investigators in Rwanda and Finland, leads the work.
 
 {%
   include button.html
@@ -87,7 +71,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/flow.jpg"
   link="team"
   title="Our Team"
   text=text

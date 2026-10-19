@@ -1,13 +1,8 @@
-STOP!!!
+## What changed
 
-You are about to open this pull request against THE TEMPLATE ITSELF. You probably meant to open it against your own website repo.
+## Why
 
----
+## Checklist
 
-FOR THE TEMPLATE MAINTAINER(S)
-
-New template version checklist:
-
-- [ ] I have updated CITATION and CHANGELOG as appropriate.
-- [ ] I have updated lab-website-template-docs as appropriate.
-- [ ] I have checked the testbed as appropriate.
+- [ ] I checked the page locally, or the preview build renders correctly.
+- [ ] No budget figures, staffing percentages, unsigned agreements, or internal planning documents are included.

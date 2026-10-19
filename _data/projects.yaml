@@ -1,47 +1,36 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: YeAbay Wuha Intel platform
+  subtitle: Planned, Phase 1
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: images/strata.jpg
+  description: A browser-based tool for groundwater site assessment, with borehole yield and suitability predictions for any GPS coordinate and purpose-specific report templates. It is designed to work offline in the field after initial loading.
   tags:
     - software
 
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Integrated groundwater database
+  subtitle: Planned, Phase 1
+  group: featured
+  image: images/sites.jpg
+  description: A spatial database that brings together satellite observations, borehole records, pumping test results, climate data, and hydrogeological maps for the Abay Basin and the Amhara Region, with documented data provenance.
+  tags:
+    - resource
+
+- title: AI groundwater model
+  subtitle: Planned, Phase 1
+  image: images/flow.jpg
+  description: A hybrid convolutional neural network and Random Forest model for borehole yield and groundwater suitability scoring, with explanations for each prediction.
   tags:
     - software
+
+- title: Groundwater flow model
+  subtitle: Planned, Phase 1
+  image: images/flow.jpg
+  description: A calibrated numerical groundwater flow model for a pilot sub-catchment, used to test abstraction, land use, and climate scenarios.
+  tags:
+    - resource
+
+- title: Field validation
+  subtitle: Planned, Phase 1
+  image: images/sites.jpg
+  description: Geophysical surveys and water quality sampling at candidate sites across the Upper Blue Nile Basin, used to check model predictions against field conditions.
+  tags:
+    - resource

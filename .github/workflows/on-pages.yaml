@@ -19,7 +19,7 @@ permissions:
 jobs:
   update-url:
     # only run on user instance of template, not template itself
-    if: github.repository != 'greenelab/lab-website-template'
+    if: github.repository == 'abay-intel/abay-intel'
     uses: ./.github/workflows/update-url.yaml
 
   build-site:

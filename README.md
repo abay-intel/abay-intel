@@ -1,32 +1,16 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17228741.svg)](https://doi.org/10.5281/zenodo.17228741)
+# YeAbay Wuha Intel
 
-<h1 align="center">Lab Website Template</h1>
-<p align="center">
-<img height="200" src="https://raw.githubusercontent.com/greenelab/lab-website-template/main/images/share.jpg?raw=true" alt="Lab Website Template">
-</p>
+Website for YeAbay Wuha Intel, a 24-month applied research initiative led by the Blue Nile Water Institute (BNWI) at Bahir Dar University, Ethiopia.
+The initiative develops an AI-enabled, GPS-based groundwater intelligence platform for the Abay Basin and the Amhara Region.
 
-Lab Website Template (LWT) is an easy-to-use, flexible website template for labs.
-Spend less time worrying about managing a website and citations, and more time running your lab.
+The site is a Jekyll site built on the [Lab Website Template](https://github.com/greenelab/lab-website-template) by the Greene Laboratory, used under its BSD 3-Clause license (see `LICENSE.md`).
 
-👇👇 **Get Started** 👇👇
+## Editing the site
 
-[**Documentation**](https://greene-lab.gitbook.io/lab-website-template-docs)
+- Team members: `_members/`, one file per person.
+- Projects: `_data/projects.yaml`.
+- News: `_posts/`, named `YYYY-MM-DD-title.md`.
+- Pages: `index.md`, `team/`, `projects/`, `research/`, `blog/`, `contact/`.
+- Site title, description, and links: `_config.yaml`.
 
-## Key Features
-
-- 🤖 Based on Git, GitHub, and Jekyll.
-- 📜 Automatically generated citations from simple identifiers (DOI, PubMed, ORCID, and many more) using Manubot. E.g. `doi:1234/5678` -> `title`, `authors`, `publisher`, `date`, etc.
-- 🧱 A comprehensive and flexible suite of pre-made components (building blocks) for structuring and styling your website:
-  - Formatted tables, code blocks, figures, and other basic elements.
-  - Citations with thumbnails and other rich details.
-  - List large sets of data with flexible filters and components.
-  - ...many more
-- 👁️ Automatic pull request previews.
-- ⚙️ Easy and automated configuration.
-- 👥 Team member pages with bios, roles, and social media links.
-- 🖋️ Blog posts with tags and rich content.
-- 📱 Works and looks good on desktop and mobile.
-- 🤝 Great documentation and support (if we do say so ourselves).
-- ... and much more!
-
-![GitHub last commit](https://img.shields.io/github/last-commit/greenelab/lab-website-template)
+Do not publish budget figures, staffing percentages, unsigned agreements, or internal planning documents on this site.
