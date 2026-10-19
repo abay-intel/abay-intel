@@ -1,3 +1,116 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-[]
+- id: doi:10.3390/w15224003
+  title: Simulating Potential Impacts of Solar MajiPump on the Economy and Nutrition
+    of Smallholder Farmers in Sub-Humid Ethiopia
+  authors:
+  - Jean-Claude Bizimana
+  - Belainew B. Yalew
+  - Tewodros T. Assefa
+  - Sisay A. Belay
+  - Yonas M. Degu
+  - Tafadzwanashe Mabhaudhi
+  - Manuel R. Reyes
+  - P. V. Vara Prasad
+  - Seifu A. Tilahun
+  publisher: Water
+  date: '2023-11-17'
+  link: https://doi.org/gwczr8
+  orcid: 0000-0002-2669-1351
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/agronomy12123019
+  title: 'The Cradles of Adoption: Perspectives from Conservation Agriculture in Ethiopia'
+  authors:
+  - Sisay A. Belay
+  - Tewodros T. Assefa
+  - Abdu Y. Yimam
+  - Pagadala V. V. Prasad
+  - Manuel R. Reyes
+  publisher: Agronomy
+  date: '2022-11-29'
+  link: https://doi.org/grzz2j
+  orcid: 0000-0002-2669-1351
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/w14030476
+  title: Conservation and Conventional Vegetable Cultivation Increase Soil Organic
+    Matter and Nutrients in the Ethiopian Highlands
+  authors:
+  - Sisay A. Belay
+  - Tewodros T. Assefa
+  - Abeyou W. Worqlul
+  - Tammo S. Steenhuis
+  - Petra Schmitter
+  - Manuel R. Reyes
+  - P. V. Vara Prasad
+  - Seifu A. Tilahun
+  publisher: Water
+  date: '2022-02-05'
+  link: https://doi.org/gvtdcq
+  orcid: 0000-0002-2669-1351
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/agronomy11010017
+  title: Evaluating Irrigation and Farming Systems with Solar MajiPump in Ethiopia
+  authors:
+  - Tewodros T. Assefa
+  - Temesgen F. Adametie
+  - Abdu Y. Yimam
+  - Sisay A. Belay
+  - Yonas M. Degu
+  - Solomon T. Hailemeskel
+  - Seifu A. Tilahun
+  - Manuel R. Reyes
+  - P. V. Vara Prasad
+  publisher: Agronomy
+  date: '2020-12-23'
+  link: https://doi.org/gsbmtb
+  orcid: 0000-0002-2669-1351
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/su12155989
+  title: The Response of Water and Nutrient Dynamics and of Crop Yield to Conservation
+    Agriculture in the Ethiopian Highlands
+  authors:
+  - Sisay A. Belay
+  - Tewodros T. Assefa
+  - P. V. Vara Prasad
+  - Petra Schmitter
+  - Abeyou W. Worqlul
+  - Tammo S. Steenhuis
+  - Manuel R. Reyes
+  - Seifu A. Tilahun
+  publisher: Sustainability
+  date: '2020-07-24'
+  link: https://doi.org/ghx42n
+  orcid: 0000-0002-2669-1351
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/w11102103
+  title: Conservation Agriculture Saves Irrigation Water in the Dry Monsoon Phase
+    in the Ethiopian Highlands
+  authors:
+  - Sisay A. Belay
+  - Petra Schmitter
+  - Abeyou W. Worqlul
+  - Tammo S. Steenhuis
+  - Manuel R. Reyes
+  - Seifu A. Tilahun
+  publisher: Water
+  date: '2019-10-10'
+  link: https://doi.org/ghx45j
+  orcid: 0000-0002-2669-1351
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.agwat.2015.10.025
+  title: 'Evaluating and enhancing irrigation water management in the upper Blue Nile
+    basin, Ethiopia: The case of Koga large scale irrigation scheme'
+  authors:
+  - Sisay B. Asres
+  publisher: Agricultural Water Management
+  date: '2016-05-01'
+  link: https://doi.org/hcn827
+  orcid: 0000-0002-2669-1351
+  plugin: orcid.py
+  file: orcid.yaml
