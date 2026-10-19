@@ -5,31 +5,33 @@
 [data-dark="false"] {
   --primary: #0f4c5c;
   --secondary: #7fc4d0;
-  --text: #000000;
-  --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
-  --overlay: #00000020;
+  --accent: #b9772b;
+  --text: #15262b;
+  --background: #f4f8f8;
+  --background-alt: #e8f1f2;
+  --light-gray: #d3dfe1;
+  --gray: #5d6b70;
+  --dark-gray: #34474d;
+  --overlay: #0f4c5c1f;
 }
 [data-dark="true"] {
-  --primary: #5fb8c7;
+  --primary: #7fd0dd;
   --secondary: #1d5f6e;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --dark-gray: #b0b0b0;
-  --overlay: #ffffff10;
+  --accent: #d89a4f;
+  --text: #e6f0f1;
+  --background: #0e1f24;
+  --background-alt: #132a31;
+  --light-gray: #2a3f45;
+  --gray: #8aa0a5;
+  --dark-gray: #b7c8cb;
+  --overlay: #ffffff14;
 }
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Newsreader", serif;
+  --heading: "Newsreader", serif;
+  --body: "Source Sans 3", sans-serif;
   --code: "Roboto Mono", monospace;
 
   // font sizes

@@ -11,15 +11,14 @@ h6 {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
   text-align: left;
-  letter-spacing: 1px;
+  letter-spacing: 0;
 }
 
 h1 {
   margin: 40px 0;
-  font-size: 1.6rem;
+  font-size: clamp(2rem, 4.5vw, 2.8rem);
   font-weight: var(--regular);
-  text-transform: uppercase;
-  text-align: center;
+  line-height: 1.15;
 }
 
 h2 {

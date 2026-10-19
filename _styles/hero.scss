@@ -1,0 +1,49 @@
+---
+---
+
+.hero {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+  margin: 40px 0 60px;
+}
+
+@media (min-width: 800px) {
+  .hero {
+    grid-template-columns: 1.1fr 1fr;
+  }
+}
+
+.hero h1 {
+  margin: 0 0 20px 0;
+}
+
+.hero p {
+  max-width: 34em;
+  font-size: var(--large);
+  color: var(--dark-gray);
+}
+
+.strata svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.strata .water-table {
+  stroke-dasharray: 100;
+  stroke-dashoffset: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .strata .water-table {
+    stroke-dashoffset: 100;
+    animation: draw-water-table 2.4s ease-out 0.3s forwards;
+  }
+}
+
+@keyframes draw-water-table {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
