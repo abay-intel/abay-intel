@@ -1,5 +1,5 @@
 name: build-site
-run-name: Build live site
+run-name: Build and deploy live site
 
 on:
   # called from on-push/on-pages
@@ -8,12 +8,14 @@ on:
   # run manually by user
   workflow_dispatch:
 
-env:
-  PREVIEWS_FOLDER: preview
-
 permissions:
-  contents: write
-  pages: read
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build-site:
@@ -41,12 +43,20 @@ jobs:
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
 
-      - name: Disable Jekyll on the Pages branch
-        run: touch _site/.nojekyll
-
-      - name: Commit live site to Pages branch
-        uses: JamesIves/github-pages-deploy-action@v4.8.0
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: _site
-          clean-exclude: ${{ env.PREVIEWS_FOLDER }}
-          force: false
+          path: _site
+
+  deploy:
+    needs: build-site
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
