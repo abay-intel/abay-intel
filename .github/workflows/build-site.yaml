@@ -13,6 +13,7 @@ env:
 
 permissions:
   contents: write
+  pages: read
 
 jobs:
   build-site:
@@ -39,6 +40,9 @@ jobs:
       - name: Build live version of site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
+
+      - name: Disable Jekyll on the Pages branch
+        run: touch _site/.nojekyll
 
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4.8.0
